@@ -66,3 +66,46 @@ h2{
 #papa .nieto{
     color: blue;
 }
+
+#title_box{
+    color: #00f;
+    font-family: 'golod text', sans-serif;
+    background-color: aqua;
+    text-align: center;
+    padding-left: 20px;
+    margin: 50px;
+    border: 5px double #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px blue;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 100px;
+}
+#box_father{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    background-image: url(https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@media( max-width: 1280) and (min-width: 800px) {
+    body{
+        background-color: red;
+    }
+}
+    /* mediaquery de 799 para abajo */
+@media ( max-width: 799px){
+body{
+    background-image: url(https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+}
+
