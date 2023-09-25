@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: bisque;
+        }
+        h1{
+            color: brown;
+            background-color: whitesmoke;
+            text-align: center;
+            box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.);
+        }
+        #father{
+            height: 100vh;
+           display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+           /* display: grid;
+            place-items: center;*/
+        }
+        #son, #son_two, #son_one, #son_three{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+        #son{
+            background-color: black;
+        }
+         #son_two{
+            background-color: brown;
+        } 
+        #son_one{
+            background-color: aliceblue;
+        } 
+        #son_three
+        {background-color: chartreuse;}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content_container">
+        <h1>class flexbox</h1>
+        <div id="father">
+            <div id="son"></div>
+            <div id="son_one"></div>
+            <div id="son_two"></div>
+            <div id="son_three"></div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
