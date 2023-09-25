@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;700&display=swap');
+
+:root{
+    --primary: red;
+    --primary-hover: blue;
+    --secondary: green;
+    --secondary-hover: green;
+    --aura: black;
+    background-color: brown;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    font-family: "Martian Mono";
+}
+h1{
+    color:var(--secondary);
+}
+
+.background{
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-image: url(https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 0.5;
+
+}
+
+.centering{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.my_form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 16px;
+    background-color: var(--background-color);
+    border: 1px solid var(--primary);
+    border-radius: 16px ;
+    box-shadow: 0 20px 60px var(--aura);
+    min-width: 3;
+
+
+}
+
+.login_welcome{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.login{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+object-fit: cover;
+}
+
+.my_form_bottom{
+    background-color: var(--primary);
+    color: var(--background-color);
+    white-space:nowrap ;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    line-height: 50px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 800;
+    min-height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .15);
+    transition: all .3 ease;
+
+}
+.text_field input{
+    color: var(--secondary);
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid var(--secondary);
+    height: 50px;
+    letter-spacing:  .03rem;
+    background-color: transparent;
+    outline: none;
+    transition: .25s;
+    border-radius: 8px;
+    text-indent: 20px;
+    margin-top: 8px;
+
+}
+
+.my_form_bottom:hover{
+    background-color: var(--primary-hover);
+    
+}
+.text_field{
+    position: relative;
+}
+.text_field img{
+    position: absolute;
+    right: -2px;
+    bottom: 4px;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+}
+.text_field imput:focus{
+    border: 1px solid var(--primary);
+
+}
+
+.text_field label{
+    color: var(--secondary);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .03rem;
+    z-index:10;
+}
+.imput_icon{
+    position: absolute;
+    bottom: 0;
+    top: 55%;
+    right: 8px;
+    transform: translate(-50%,-50%);
+    transform-origin: center;
+
+}
+.my_form_action{
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary);
+    gap: 16px;
+    margin-top: 8px;
+}
+.my_form_action a{
+    color: var(--secondary);
+    font-weight: 600;
+}
+.my_form_action a:hover{
+    color:#a7a2cb;
+
+}
+.my_form{
+    display: flex;
+    justify-content: space-between;
+
+}
+.my_form_sigup{
+    display: flex;
+    justify-content: center;
+}
+.my_form_sigup a{
+    color: var(--primary);
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.my_form_sigup a:hover{
+    color:var(--primary-hover)
+}

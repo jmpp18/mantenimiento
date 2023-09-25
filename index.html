@@ -5,17 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../mantenimiento/ccs/style_login.css">
 </head>
 <body>
-    <ul>
-        <li><a href="html/tablas.html">IR A TABLAS</a></li>
-        <li><a href="html/estilo.html">IR A estilo</a></li>
-        <li><a href="html/Formularios.html">Formularios</a></li>
-        <li><a href="html/Texto.html">Textos</a></li>
-        <li><a href="html/Semantica.html">Semántica</a></li>
-        <li><a href="html/Agrupacion.html">Agrupación</a></li>
-        <li><a href="html/Multimedia.html">Multimedia</a></li>
-        <li><a href="html/flexbox.html">Multimedia</a></li>
-    </ul>
+    <div class="background"></div>
+    <div class="centering">
+        <form action="" class="my_form">
+            <div class="login_welcome">
+                <img src="" alt="" class="login">
+                <h1>INICIAR SESIÓN</h1>
+            </div>
+            <div class="text_field">
+                <label for="">Email</label>
+                <input type="email" id="email" name="email" aria-label="Email" placeholder="ingrese su correo electronico" required></imput>
+                <img src="https://www.elcomercio.com/wp-content/uploads/2023/05/astronauta-encontro-tesoros-desde-espacio-oculto-nasa.jpg" alt="">
+            </div>
+            <div class="text_field">
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" placeholder="ingrese su contraseña" required></imput>
+                <img src="" alt="">
+            </div>
+            <input type="submit" class="my_form_buttom" value="login">
+            <div class="my_form">
+                <span>Olvidaste tu contraseña</span>
+                <a href="#" title="recuperar contraseña">recuperar contraseña</a>
+            </div>
+            <div class="my_form_sigup">
+                <a href="#" title="create account">crear cuenta</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
