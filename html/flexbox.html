@@ -34,18 +34,29 @@
             width: 200px;
             height: 200px;
             background-color: aqua;
+            border-radius: 15px;
         }
         #son{
             background-color: black;
+            transform: translate(-5px, -50px);
         }
          #son_two{
             background-color: brown;
+            transform: rotate(20deg);
+            border-radius: 50%;
+            
         } 
-        #son_one{
+        #son_one:hover{
             background-color: aliceblue;
+            transform: scale(1.15);
+            border-radius: 15px;
+            transition: all ease-in-out 0.7s;
         } 
         #son_three
-        {background-color: chartreuse;}
+        {background-color: chartreuse;
+            transform: skew(-5deg,-10deg);
+        
+        }
     </style>
 </head>
 <body>
